@@ -2,16 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-    border-color: #EBEBED;
-  
+  border-color: #ebebed;
 }
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -21,9 +27,10 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #ffffff;
-}  
+}
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 :root {
@@ -53,8 +60,8 @@ body {
   margin: 0;
   display: flex;
   /* place-items: center; */
-  min-width: 320px;
   min-height: 100vh;
+  width: 100%;
 }
 
 h1 {

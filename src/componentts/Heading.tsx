@@ -10,7 +10,7 @@ interface HeadingProps {
 const Heading = ({title, label}: HeadingProps) => {
   return (
     <>
-    <div className="font-bold text-[18181B] text-2xl flex">{title}</div>
+    <div className="font-bold text-[18181B] text-xl md:text-2xl flex ">{title}</div>
     <HeadingLabel label={label}  />
     </>
   )

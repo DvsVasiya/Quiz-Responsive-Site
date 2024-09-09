@@ -6,7 +6,7 @@ import TimeLimit from "./TimeLimit";
 
 const Card = () => {
   return (
-    <div className="w-[25rem] p-[1.3rem] border-2 rounded-lg  flex flex-col">
+    <div className="p-[0.7rem] md:p-[1.3rem]  border-2 rounded-lg  flex flex-col">
       <div>
         <Heading title="JavaScript" label="Test your javascirpt Knowelge" />
         <CategorySelector Difficulty={["Easy", "Medium", "Hard"]} />

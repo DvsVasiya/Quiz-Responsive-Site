@@ -15,14 +15,14 @@ const CategorySelector = ({ Difficulty }: CategorySelectorProps) => {
   };
   return (
     <>
-      <div className="flex mt-10 justify-between">
-        <h4 className="font-bold text-sm">Difficulty</h4>
+      <div className="flex mt-3 md:mt-8  justify-between gap-[4rem] md:gap-[6rem] items-center">
+        <h4 className="font-bold text-xs md:text-sm">Difficulty</h4>
         <div className="flex gap-2">
           {Difficulty.map((item: string) => (
             <button
               key={item}
               onClick={() => handleSelect(item)}
-              className={`font-bold border border-[#EBEBED] rounded-xl p-1 px-2 text-xs text-center 
+              className={`font-bold border border-[#EBEBED] rounded-xl p-1 px-2  text-xxs md-text-xs text-center 
                    ${
                      selectedDifficulty === item
                        ? "bg-black text-white"

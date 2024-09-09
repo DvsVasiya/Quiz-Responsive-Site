@@ -4,7 +4,7 @@ interface HeadingLabelProps {
 
 const HeadingLabel = ({label}: HeadingLabelProps) => {
   return (
-    <div className="font-medium text-[#bbbaba] text-sm	flex mt-1">{label}</div>
+    <div className="font-medium text-[#bbbaba] text-xs md:text-sm	flex mt-1">{label}</div>
   )
 }
 
