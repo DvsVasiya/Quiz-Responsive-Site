@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'sxs': '530px',
+      },
       fontSize: {
         'xxs': ['0.625rem', { lineHeight: '0.875rem' }], 
       },
