@@ -1,17 +1,23 @@
 import { useState } from "react";
+import { LiftPropUp } from "../interfaces/props";
 
-interface CategorySelectorProps {
-  Difficulty: string[];
-}
+ 
 
-const CategorySelector = ({ Difficulty }: CategorySelectorProps) => {
-  console.log(Difficulty);
-  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(
-    null
-  );
+  interface CategorySelectorProps  extends LiftPropUp   {
+    Difficulty: string[];
+
+  }
+
+  const CategorySelector = ({ Difficulty, handleQuiz  }: CategorySelectorProps) => {
+    const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(
+      null
+    );
 
   const handleSelect = (item: string) => {
-    setSelectedDifficulty(item); 
+  handleQuiz((prevQuiz: object) => ({
+    ...prevQuiz,
+    Difficulty: item, 
+  }));    setSelectedDifficulty(item); 
   };
   return (
     <>

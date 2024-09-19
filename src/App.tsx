@@ -6,7 +6,6 @@ import Quiz from './pages/Quiz'
 import Summary from './pages/Summary'
 
 function App() {
-console.log("test url....", window)
 
 
 const handlePageRedurect = (path: string) => {
