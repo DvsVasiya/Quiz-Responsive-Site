@@ -1,0 +1,4889 @@
+ [
+   { 
+    "tags":"JavaScript",
+    "allQuestion":[
+        {
+            "id": 1,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Javascript is an _______ language?",
+            "options": [
+                {
+                    "text": "Object-Oriented",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Object-Based",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Procedural",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Object-Oriented"
+            ],
+            "explanation": "Javascript is an Object-Oriented Language.",
+            "codeAvailable": false
+        },
+        {
+            "id": 2,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which of the following keywords is used to define a variable in Javascript?",
+            "options": [
+                {
+                    "text": "var",
+                    "isCorrect": false
+                },
+                {
+                    "text": "let",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "Both var and let keywords are used to define a variable in Javascript.",
+            "codeAvailable": false
+        },
+        {
+            "id": 3,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which of the following methods is used to access HTML elements using Javascript?",
+            "options": [
+                {
+                    "text": "getElementbyId()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "getElementsByClassName()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "Both the above methods are used to access HTML elements using Javascript.",
+            "codeAvailable": false
+        },
+        {
+            "id": 4,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Upon encountering empty statements, what does the Javascript Interpreter do?",
+            "options": [
+                {
+                    "text": "Throws an error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Ignores the statements",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Gives a warning",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Ignores the statements"
+            ],
+            "explanation": "In Javascript, the interpreter will ignore the empty statements whenever it encounters them.",
+            "codeAvailable": false
+        },
+        {
+            "id": 5,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which of the following methods can be used to display data in some form using Javascript?",
+            "options": [
+                {
+                    "text": "document.write()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "console.log()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "window.alert()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above methods are used to display data in some form using Javascript.",
+            "codeAvailable": false
+        },
+        {
+            "id": 6,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "How can a datatype be declared to be a constant type?",
+            "options": [
+                {
+                    "text": "const",
+                    "isCorrect": true
+                },
+                {
+                    "text": "var",
+                    "isCorrect": false
+                },
+                {
+                    "text": "let",
+                    "isCorrect": false
+                },
+                {
+                    "text": "constant",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "const"
+            ],
+            "explanation": "The const keyword is used to declare a variable as a constant type in Javascript and tells the compiler that its value cannot be changed later in the program.",
+            "codeAvailable": false
+        },
+        {
+            "id": 7,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "Compilation Error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "14",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Runtime Error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "59",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "59"
+            ],
+            "explanation": "In the above code snippet, the first number is of integer type and the second of string type. The code snippet gives priority to the string type and concatenates them due to the ‘+’ operator.",
+            "codeAvailable": false
+        },
+        {
+            "id": 8,
+            "category": "Web development",
+            "type": "multiple choice",
+           
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "al",
+                    "isCorrect": true
+                },
+                {
+                    "text": "ale",
+                    "isCorrect": false
+                },
+                {
+                    "text": "cal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "caler",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "al"
+            ],
+            "explanation": "The substring function in javascript slices a substring out of a given string from the start to end indexes(excluding the end index). So the 2nd and 3rd characters are taken here(0-based indexing) and the answer is al.",
+            "codeAvailable": false
+        },
+        {
+            "id": 9,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "20",
+                    "isCorrect": true
+                },
+                {
+                    "text": "x+y",
+                    "isCorrect": false
+                },
+                {
+                    "text": "128",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "20"
+            ],
+            "explanation": "The eval() function evaluates the expression passed into it as a parameter and returns the result after evaluation.",
+            "codeAvailable": true,
+            "codeContent": "var x=12;\nvar y=8;\nvar res=eval(\"x+y\");\ndocument.write(res);"
+        },
+        {
+            "id": 10,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "When the switch statement matches the expression with the given labels, how is the comparison done?",
+            "options": [
+                {
+                    "text": "Both the datatype and the result of the expression are compared.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Only the datatype of the expression is compared.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Only the value of the expression is compared.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both the datatype and the result of the expression are compared."
+            ],
+            "explanation": "Switch performs an ‘===’ based comparison, i.e both the value of the expression and its datatype is compared.",
+            "codeAvailable": false
+        },
+        {
+            "id": 11,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What keyword is used to check whether a given property is valid or not?",
+            "options": [
+                {
+                    "text": "in",
+                    "isCorrect": true
+                },
+                {
+                    "text": "is in",
+                    "isCorrect": false
+                },
+                {
+                    "text": "exists",
+                    "isCorrect": false
+                },
+                {
+                    "text": "lies",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "in"
+            ],
+            "explanation": "The in keyword is used to check whether the given property is valid or not in Javascript.",
+            "codeAvailable": false
+        },
+        {
+            "id": 12,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What is the use of the <noscript> tag in Javascript?",
+            "options": [
+                {
+                    "text": "The contents are displayed by non-JS-based browsers.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Clears all the cookies and cache.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "The contents are displayed by non-JS-based browsers."
+            ],
+            "explanation": "The <noscript> tag is displayed by non-Javascript browsers only.",
+            "codeAvailable": false
+        },
+        {
+            "id": 13,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "1 2 3 4",
+                    "isCorrect": false
+                },
+                {
+                    "text": "2 3 4 1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "2 4 3 1",
+                    "isCorrect": true
+                },
+                {
+                    "text": "4 3 2 1",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "2 4 3 1"
+            ],
+            "explanation": "First the 2 is printed with the console.log, then even with a time delay of 0ms, the 4 is printed before the 3 because JS executes setTimeout with the Web API, and so the entire function is executed first. Lastly, after a delay of 2000ms, the 1 is printed.",
+            "codeAvailable": true,
+            "codeContent": "(function(){\n setTimeout(()=> console.log(1),2000);\n console.log(2);\n setTimeout(()=> console.log(3),0);\n console.log(4);\n})();"
+        },
+        {
+            "id": 14,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "6",
+                    "isCorrect": false
+                },
+                {
+                    "text": "NaN",
+                    "isCorrect": false
+                },
+                {
+                    "text": "21",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "21"
+            ],
+            "explanation": "Even though a is defined in the outer function, due to closure, inner functions have access to it.",
+            "codeAvailable": true,
+            "codeContent": "(function(a){\n return (function(){\n   console.log(a);\n   a = 6;\n })()\n})(21);"
+        },
+        {
+            "id": 15,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "[111, 44, 1, 22]",
+                    "isCorrect": true
+                },
+                {
+                    "text": "[44, 1, 22, 111]",
+                    "isCorrect": false
+                },
+                {
+                    "text": "[111, 44, 1, 22]",
+                    "isCorrect": false
+                },
+                {
+                    "text": "[1, 22, 111, 44]",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "[111, 44, 1, 22]"
+            ],
+            "explanation": "The above code snippets rotate an array to its right by some specified number of times(here 3).",
+            "codeAvailable": true,
+            "codeContent": "function solve(arr, rotations){\n if(rotations == 0) return arr;\n for(let i = 0; i < rotations; i++){\n   let element = arr.pop();\n   arr.unshift(element);\n }\n return arr;\n}\n// solve([44, 1, 22, 111], 5);"
+        },
+        {
+            "id": 16,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output for the following code snippet?",
+            "options": [
+                {
+                    "text": "9",
+                    "isCorrect": true
+                },
+                {
+                    "text": "81",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "0",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "9"
+            ],
+            "explanation": "The sqrt() method returns the square root of the passed parameter, which is in an inbuilt javascript function.",
+            "codeAvailable": true,
+            "codeContent": "function Func()  \n{  \ndocument.getElementById(\"example\").innerHTML=Math.sqrt(81);  \n}"
+        },
+        {
+            "id": 17,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "When an operator’s value is NULL, the typeof returned by the unary operator is:",
+            "options": [
+                {
+                    "text": "Boolean",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Undefined",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Object",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Integer",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Object"
+            ],
+            "explanation": "Any NULL value of operator will always return typeof object.",
+            "codeAvailable": false
+        },
+        {
+            "id": 18,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "4 10 18",
+                    "isCorrect": true
+                },
+                {
+                    "text": "1 2 3",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1 4 7",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "4 10 18"
+            ],
+            "explanation": "The loop will run 3 times, before meeting the exit condition. First value of b will be 2 * 2 = 4, followed by 4 + 3 * 2 = 10, and then value of 10 + 4 * 2 = 18.",
+            "codeAvailable": true,
+            "codeContent": "var a = 1;  \nvar b = 0;  \nwhile (a <= 3)  \n{  \n   a++;  \n   b += a * 2;  \n   print(b);\n}"
+        },
+        {
+            "id": 19,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What does the Javascript “debugger” statement do?",
+            "options": [
+                {
+                    "text": "It will debug all the errors in the program at runtime.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It acts as a breakpoint in a program.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "It will debug error in the current statement if any.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "It acts as a breakpoint in a program."
+            ],
+            "explanation": "‘debugger’ statement is used to setup the breakup points at probable points of error in the code snippet, using the debugger window.",
+            "codeAvailable": false
+        },
+        {
+            "id": 20,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "-Infinity Infinity",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Infinity -Infinity",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Infinity Infinity",
+                    "isCorrect": false
+                },
+                {
+                    "text": "-Infinity -Infinity",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "-Infinity Infinity"
+            ],
+            "explanation": "The Math.max() method returns -Infinity by default and the Math.min() method returns Infinity value by default when passed without any parameters.",
+            "codeAvailable": true,
+            "codeContent": "var a = Math.max();\nvar b = Math.min();\nprint(a);\nprint(b);"
+        },
+        {
+            "id": 21,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "true false",
+                    "isCorrect": true
+                },
+                {
+                    "text": "false true",
+                    "isCorrect": false
+                },
+                {
+                    "text": "true true",
+                    "isCorrect": false
+                },
+                {
+                    "text": "false false",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "true false"
+            ],
+            "explanation": "In Javascript Math.max() is lesser than Math.min() because Math.max() returns -Infinity and Math.min() returns Infinity.",
+            "codeAvailable": true,
+            "codeContent": "var a = Math.max() < Math.min();\nvar b = Math.max() > Math.min();\nprint(a);\nprint(b);"
+        },
+        {
+            "id": 22,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "3",
+                    "isCorrect": false
+                },
+                {
+                    "text": "0",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "5",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "5"
+            ],
+            "explanation": "In Javascript, true is considered as the number 1 when used in any arithmetic expression, hence the expression evaluates to 5.",
+            "codeAvailable": true,
+            "codeContent": "var a = true + true + true * 3;\nprint(a)"
+        },
+        {
+            "id": 23,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What is the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "true",
+                    "isCorrect": false
+                },
+                {
+                    "text": "false",
+                    "isCorrect": true
+                },
+                {
+                    "text": "undefined",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Error",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "false"
+            ],
+            "explanation": "In Javascript, NaN is not considered to be equal to NaN even after using the strict equality operator.",
+            "codeAvailable": false
+        },
+        {
+            "id": 24,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "Object",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Number",
+                    "isCorrect": true
+                },
+                {
+                    "text": "String",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Number"
+            ],
+            "explanation": "NaN in Javascript is defined to be of type number despite its name(not a number).",
+            "codeAvailable": false
+        },
+        {
+            "id": 25,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What does the ‘toLocateString()’ method do in JS?",
+            "options": [
+                {
+                    "text": "Returns a localised object representation.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Returns a parsed string.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Returns a localized string representation of an object.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Returns a localized string representation of an object."
+            ],
+            "explanation": "The ‘toLocateString()’ method in JS returns a localized string representation of an object.",
+            "codeAvailable": false
+        },
+        {
+            "id": 26,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "The process in which an object or data structure is translated into a format suitable for transferral over a network, or storage is called?",
+            "options": [
+                {
+                    "text": "Object Serialization",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Object Encapsulation",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Object Inheritance",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Object Serialization"
+            ],
+            "explanation": "Object Serialization is the process in which an object or data structure is translated into a format suitable for transferral over a network, or storage.",
+            "codeAvailable": false
+        },
+        {
+            "id": 27,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which function is used to serialize an object into a JSON string in Javascript?",
+            "options": [
+                {
+                    "text": "stringify()",
+                    "isCorrect": true
+                },
+                {
+                    "text": "parse()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "convert()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "stringify()"
+            ],
+            "explanation": "The JSON.stringify() function is used to convert a JSON object into string format.",
+            "codeAvailable": false
+        },
+        {
+            "id": 28,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "The 3 basic object attributes in Javascript are:",
+            "options": [
+                {
+                    "text": "Class, prototype, objects' parameters.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Class, prototype, object's extensible flag.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Class, parameters, object's extensible flag.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Classes, Native object, and Interfaces and Object's extensible flag.",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "Class, prototype, object's extensible flag.",
+                "Classes, Native object, and Interfaces and Object's extensible flag."
+            ],
+            "explanation": "In general for objects in Javascript, the objects are associated with 3 basic attributes, Class, prototype, object's extensible flag.",
+            "codeAvailable": false
+        },
+        {
+            "id": 29,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "6",
+                    "isCorrect": true
+                },
+                {
+                    "text": "1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "6"
+            ],
+            "explanation": "The above code snippet calculates the sum of numbers in an array, by using the forEach loops method.",
+            "codeAvailable": true,
+            "codeContent": "let sum = 0; \nconst a = [1, 2, 3];\na.forEach(getSum);\nprint(sum);\nfunction getSum(ele) {\n   sum += ele;\n}"
+        },
+        {
+            "id": 30,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "3, 4",
+                    "isCorrect": true
+                },
+                {
+                    "text": "2, 3",
+                    "isCorrect": false
+                },
+                {
+                    "text": "3, 4, 5",
+                    "isCorrect": false
+                },
+                {
+                    "text": "2, 3, 4",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "3, 4"
+            ],
+            "explanation": "The slice() function in Javascript slices an array within the given start and end indexes and then returns the values lying in those ranges. The indexing done is 0-based indexing.",
+            "codeAvailable": true,
+            "codeContent": "a = [1, 2, 3, 4, 5];\nprint(a.slice(2, 4));"
+        },
+        {
+            "id": 31,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "123 NaN",
+                    "isCorrect": true
+                },
+                {
+                    "text": "123Hello Hello123",
+                    "isCorrect": false
+                },
+                {
+                    "text": "NaN NaN",
+                    "isCorrect": false
+                },
+                {
+                    "text": "123 123",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "123 NaN"
+            ],
+            "explanation": "The parseInt() method converts a string to an integer if it is possible. If the string starts with a number, it will convert that numeric part and return it. Else, it will return NaN.",
+            "codeAvailable": true,
+            "codeContent": "print(parseInt(\"123Hello\"));\nprint(parseInt(\"Hello123\"));"
+        },
+        {
+            "id": 32,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which of the following are closures in Javascript?",
+            "options": [
+                {
+                    "text": "Variables",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Functions",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Objects",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "Every time a function is created in JS, a closure is created. So, all closures are functions and functions have a scope chain that is associated with them.",
+            "codeAvailable": false
+        },
+        {
+            "id": 33,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which of the following is not a Javascript framework?",
+            "options": [
+                {
+                    "text": "Node",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Vue",
+                    "isCorrect": false
+                },
+                {
+                    "text": "React",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Cassandra",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "Cassandra"
+            ],
+            "explanation": "Other than Cassandra, all the other options are Javascript frameworks.",
+            "codeAvailable": false
+        },
+        {
+            "id": 34,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "47",
+                    "isCorrect": false
+                },
+                {
+                    "text": "NaN",
+                    "isCorrect": true
+                },
+                {
+                    "text": "0",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "NaN"
+            ],
+            "explanation": "In Javascript, the a[i] - ‘a’ is not typecasted to an integer type and hence the result is NaN.",
+            "codeAvailable": true,
+            "codeContent": "var a = \"hello\";\nvar sum = 0;\nfor(var i = 0; i < a.length; i++) {\n   sum += (a[i] - 'a');\n}\nprint(sum);"
+        },
+        {
+            "id": 35,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What keyword is used to declare an asynchronous function in Javascript?",
+            "options": [
+                {
+                    "text": "async",
+                    "isCorrect": true
+                },
+                {
+                    "text": "await",
+                    "isCorrect": false
+                },
+                {
+                    "text": "setTimeout",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "async"
+            ],
+            "explanation": "The async keyword is used to declare an asynchronous function in Javascript.",
+            "codeAvailable": false
+        },
+        {
+            "id": 36,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "How to stop an interval timer in Javascript?",
+            "options": [
+                {
+                    "text": "clearInterval",
+                    "isCorrect": true
+                },
+                {
+                    "text": "clearTimer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "intervalOver",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "clearInterval"
+            ],
+            "explanation": "clearInterval is used to stop an interval timer in JS.",
+            "codeAvailable": false
+        },
+        {
+            "id": 37,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "11 NaN NaN",
+                    "isCorrect": false
+                },
+                {
+                    "text": "11 NaN [object Object]",
+                    "isCorrect": false
+                },
+                {
+                    "text": "11 Hello6 [object Object]6",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "11 Hello6 [object Object]6"
+            ],
+            "explanation": "First 2 numbers are added as integers, followed by string concatenation. Finally, since both are not of string type, JS stringifies both the object and the number and concatenates them. When an object is stringified it is read as [object Object] and then concatenated.",
+            "codeAvailable": true,
+            "codeContent": "const set = new Set();\nset.add(5);\nset.add('Hello');\nset.add({ name: 'Scaler' });\nfor (let item of set) {\n console.log(item + 6);\n}"
+        },
+        {
+            "id": 38,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "How are objects compared when they are checked with the strict equality operator?",
+            "options": [
+                {
+                    "text": "The contents of the objects are compared",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Their references are compared",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Their references are compared"
+            ],
+            "explanation": "In Javascript, objects are passed by reference and hence the strict equality operator compares their references.",
+            "codeAvailable": false
+        },
+        {
+            "id": 39,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What does … operator do in JS?",
+            "options": [
+                {
+                    "text": "It is used to spread iterables to individual elements",
+                    "isCorrect": true
+                },
+                {
+                    "text": "It is used to describe a datatype of undefined size",
+                    "isCorrect": false
+                },
+                {
+                    "text": "No such operator exists",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "It is used to spread iterables to individual elements"
+            ],
+            "explanation": "The … operator is used to spread iterables to individual elements in Javascript and is also called the spread operator.",
+            "codeAvailable": false
+        },
+        {
+            "id": 40,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "0 1 2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "0 Undefined Undefined",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Undefined Undefined Undefined",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Undefined Undefined Undefined"
+            ],
+            "explanation": "Since we are passing individual numbers rather than a single object to the function, Javascript will initialize the object parameters with their default value of undefined.",
+            "codeAvailable": true,
+            "codeContent": "const example = ({ a, b, c }) => {\n console.log(a, b, c);\n};\nexample(0, 1, 2);"
+        },
+        {
+            "id": 41,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "YES",
+                    "isCorrect": true
+                },
+                {
+                    "text": "NO",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Syntax Error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "YES"
+            ],
+            "explanation": "The above code performs binary search to search for the target element of 5 in the given array. If it is found, it prints YES else NO.",
+            "codeAvailable": true,
+            "codeContent": "let a = [1, 2, 3, 4, 5, 6];\nvar left = 0, right = 5;\nvar found = false;\nvar target = 5;\nwhile(left <= right) {\n   var mid = Math.floor((left + right) / 2);\n   if(a[mid] == target) {\n       found = true;\n       break;\n   }\n   else if(a[mid] < target) {\n       left = mid + 1;\n   }\n   else {\n       right = mid - 1;\n   }\n}\nif(found) {\n   print(\"YES\");\n}\nelse {\n   print(\"NO\");\n}"
+        },
+        {
+            "id": 42,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "8",
+                    "isCorrect": false
+                },
+                {
+                    "text": "7",
+                    "isCorrect": true
+                },
+                {
+                    "text": "0",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "7"
+            ],
+            "explanation": "This code snippet shows one of the many applications of the binary search algorithm in Javascript. Here, we are binary searching for the index of the first occurrence of the character ‘1’ in the given string. When we get the character ‘1’ at the mid index, we store it as the answer and move to the left half which will have the first index of ‘1’ if it occurs. Else we move to the right half. So, the answer will be 7 (0-based indexing).",
+            "codeAvailable": true,
+            "codeContent": "let s = \"00000001111111\";\nlet l = 0, r = s.length - 1, ans = -1;\nwhile(l <= r) {\n   var mid = Math.floor((l + r) / 2);\n   if(s[mid] == '1') {\n       ans = mid;\n       r = mid - 1;\n   }\n   else {\n       l = mid + 1;\n   }\n}\nprint(ans);"
+        },
+        {
+            "id": 43,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "5",
+                    "isCorrect": false
+                },
+                {
+                    "text": "4",
+                    "isCorrect": true
+                },
+                {
+                    "text": "6",
+                    "isCorrect": false
+                },
+                {
+                    "text": "3",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "4"
+            ],
+            "explanation": "The code snippet basically uses binary search to calculate the floor of the square root of a number. Since the square root is an increasing function, so binary search is applicable here. Here, for n = 24, the answer is 4.",
+            "codeAvailable": true,
+            "codeContent": "let n = 24;\nlet l = 0, r = 100, ans = n;\nwhile(l <= r) {\n   let mid = Math.floor((l + r) / 2);\n   if(mid * mid <= n) {\n       ans = mid;\n       l = mid + 1;\n   }\n   else {\n       r = mid - 1;\n   }\n}\nprint(ans);"
+        },
+        {
+            "id": 44,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "true",
+                    "isCorrect": false
+                },
+                {
+                    "text": "false",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Undefined",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "false"
+            ],
+            "explanation": "The strict equality operator compares objects by their references so even though the contents of both objects are the same, their references don’t match resulting in false.",
+            "codeAvailable": true,
+            "codeContent": "const obj1 = {Name: \"Hello\", Age: 16};\nconst obj2 = {Name: \"Hello\", Age: 16};\nprint(obj1 === obj2);"
+        },
+        {
+            "id": 45,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What happens when we run this code?",
+            "options": [
+                {
+                    "text": "Syntax Error",
+                    "isCorrect": false
+                },
+                {
+                    "text": "“I am a dog” gets printed",
+                    "isCorrect": false
+                },
+                {
+                    "text": "ReferenceError",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nothing happens",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "Nothing happens"
+            ],
+            "explanation": "Nothing happens in the above code, and it is totally valid because functions in Javascript are treated as objects.",
+            "codeAvailable": true,
+            "codeContent": "function dog() {\n   print(\"I am a dog.\");\n}\ndog.sound = \"Bark\";"
+        },
+        {
+            "id": 46,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "How do we write a comment in javascript?",
+            "options": [
+                {
+                    "text": "/* */",
+                    "isCorrect": false
+                },
+                {
+                    "text": "//",
+                    "isCorrect": true
+                },
+                {
+                    "text": "#",
+                    "isCorrect": false
+                },
+                {
+                    "text": "$ $",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "//"
+            ],
+            "explanation": "The correct syntax of writing a comment in Javascript is // This is a comment.",
+            "codeAvailable": false
+        },
+        {
+            "id": 47,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which object in Javascript doesn’t have a prototype?",
+            "options": [
+                {
+                    "text": "Base Object",
+                    "isCorrect": true
+                },
+                {
+                    "text": "All objects have a prototype",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the objects have a prototype",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Base Object"
+            ],
+            "explanation": "Base objects are the only objects in Javascript that don’t have a prototype.",
+            "codeAvailable": false
+        },
+        {
+            "id": 48,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "NaN",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Number",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Object",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Array",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Object"
+            ],
+            "explanation": "The …args parameter allows us to collect all remaining arguments into an array, and in Javascript typeof an array is an object.",
+            "codeAvailable": true,
+            "codeContent": "function test(...args) {\n console.log(typeof args);\n}\ntest(12);"
+        },
+        {
+            "id": 49,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "What will be the output of the following code snippet?",
+            "options": [
+                {
+                    "text": "{first: 20, second: 30}",
+                    "isCorrect": false
+                },
+                {
+                    "text": "{first: 50, second: 30}",
+                    "isCorrect": true
+                },
+                {
+                    "text": "{first: 20, second: 30, first: 50}",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Syntax Error",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "{first: 50, second: 30}"
+            ],
+            "explanation": "When an object is passed with duplicate keys, the value of the key will be replaced by the last value of that key used in the declaration.",
+            "codeAvailable": true,
+            "codeContent": "const obj1 = {first: 20, second: 30, first: 50};\nconsole.log(obj1);"
+        },
+        {
+            "id": 50,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "JavaScript"
+            ],
+            "questionText": "Which of the following are not server-side Javascript objects?",
+            "options": [
+                {
+                    "text": "Date",
+                    "isCorrect": false
+                },
+                {
+                    "text": "FileUpload",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Function",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above options are not server-side Javascript objects.",
+            "codeAvailable": false
+        }
+    ]
+}, {
+    "tags": "CSS",
+    "allQuestion": [
+        {
+            "id": 1,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "The full form of CSS is:",
+            "options": [
+                {
+                    "text": "Cascading Style Sheets",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Coloured Special Sheets",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Color and Style Sheets",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Cascading Style Sheets"
+            ],
+            "explanation": "Cascading Style Sheets",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 2,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we change the background color of an element?",
+            "options": [
+                {
+                    "text": "background-color",
+                    "isCorrect": true
+                },
+                {
+                    "text": "color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "background-color"
+            ],
+            "explanation": "background-color",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 3,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we change the text color of an element?",
+            "options": [
+                {
+                    "text": "background-color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "color",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "color"
+            ],
+            "explanation": "color",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 4,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "In how many ways can CSS be written in?",
+            "options": [
+                {
+                    "text": "1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "3",
+                    "isCorrect": true
+                },
+                {
+                    "text": "4",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "3"
+            ],
+            "explanation": "3",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 5,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What type of CSS is the following code snippet?",
+            "options": [
+                {
+                    "text": "Inline",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Internal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "External",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Inline"
+            ],
+            "explanation": "Inline",
+            "codeAvailable": true,
+            "codeContent": "<h1 style=\"color:blue;\">A Blue Heading</h1>"
+        },
+        {
+            "id": 6,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What type of CSS is generally recommended for designing large web pages?",
+            "options": [
+                {
+                    "text": "Inline",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Internal",
+                    "isCorrect": false
+                },
+                {
+                    "text": "External",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "External"
+            ],
+            "explanation": "External",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 7,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which HTML tag is used to declare internal CSS?",
+            "options": [
+                {
+                    "text": "<style>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<link>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<script>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<style>"
+            ],
+            "explanation": "<style>",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 8,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we select an element with a specific ID in CSS?",
+            "options": [
+                {
+                    "text": "#",
+                    "isCorrect": true
+                },
+                {
+                    "text": ".",
+                    "isCorrect": false
+                },
+                {
+                    "text": "^",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "#"
+            ],
+            "explanation": "#",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 9,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we select an element with a specific Class in CSS?",
+            "options": [
+                {
+                    "text": "#",
+                    "isCorrect": false
+                },
+                {
+                    "text": ".",
+                    "isCorrect": true
+                },
+                {
+                    "text": "^",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "."
+            ],
+            "explanation": ".",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 10,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we write comments in CSS?",
+            "options": [
+                {
+                    "text": "/* */",
+                    "isCorrect": true
+                },
+                {
+                    "text": "//",
+                    "isCorrect": false
+                },
+                {
+                    "text": "#",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "/* */"
+            ],
+            "explanation": "/* */",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 11,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "In the below code snippet, in what order will the margins be added?",
+            "options": [
+                {
+                    "text": "Top, Right, Bottom, Left",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Top, Left, Bottom, Right",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Top, Bottom, Right, Left",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Right, Left, Top, Bottom",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Top, Right, Bottom, Left"
+            ],
+            "explanation": "Top, Right, Bottom, Left",
+            "codeAvailable": true,
+            "codeContent": "p {\n    margin: 25px 50px 75px 100px;\n  }"
+        },
+        {
+            "id": 12,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Can negative values be allowed in padding property?",
+            "options": [
+                {
+                    "text": "Yes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "No",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Depends on property",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "No"
+            ],
+            "explanation": "No",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 13,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "The CSS property used to specify the transparency of an element is?",
+            "options": [
+                {
+                    "text": "opacity",
+                    "isCorrect": true
+                },
+                {
+                    "text": "visibility",
+                    "isCorrect": false
+                },
+                {
+                    "text": "filter",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "opacity"
+            ],
+            "explanation": "opacity",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 14,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we specify the spacing between each letter in a text in CSS?",
+            "options": [
+                {
+                    "text": "alpha-spacing",
+                    "isCorrect": false
+                },
+                {
+                    "text": "letter-spacing",
+                    "isCorrect": true
+                },
+                {
+                    "text": "character-spacing",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "letter-spacing"
+            ],
+            "explanation": "letter-spacing",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 15,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What is the correct syntax for referring an external CSS?",
+            "options": [
+                {
+                    "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<style rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">"
+            ],
+            "explanation": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 16,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following are valid ways to represent a colour in CSS?",
+            "options": [
+                {
+                    "text": "A valid color name",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RGB values",
+                    "isCorrect": false
+                },
+                {
+                    "text": "HEX values",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 17,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following is the correct way to select all h1 headers in a div element?",
+            "options": [
+                {
+                    "text": "div h1",
+                    "isCorrect": true
+                },
+                {
+                    "text": "div-h1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "h1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "div h1"
+            ],
+            "explanation": "div h1",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 18,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "We can make rounded borders around elements using which CSS element?",
+            "options": [
+                {
+                    "text": "border-collapse",
+                    "isCorrect": false
+                },
+                {
+                    "text": "border-round",
+                    "isCorrect": false
+                },
+                {
+                    "text": "border-radius",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "border-radius"
+            ],
+            "explanation": "border-radius",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 19,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we set the maximum width of the elements content box using CSS?",
+            "options": [
+                {
+                    "text": "height property",
+                    "isCorrect": false
+                },
+                {
+                    "text": "max-height property",
+                    "isCorrect": false
+                },
+                {
+                    "text": "max-width property",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "max-width property"
+            ],
+            "explanation": "max-width property",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 20,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which CSS property is used to specify different border styles?",
+            "options": [
+                {
+                    "text": "border-style",
+                    "isCorrect": true
+                },
+                {
+                    "text": "border",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "border-style"
+            ],
+            "explanation": "border-style",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 21,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following property specifies the look and design of an outline?",
+            "options": [
+                {
+                    "text": "outline-style",
+                    "isCorrect": true
+                },
+                {
+                    "text": "outline",
+                    "isCorrect": false
+                },
+                {
+                    "text": "outline-font",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "outline-style"
+            ],
+            "explanation": "outline-style",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 22,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following are valid CSS position property values?",
+            "options": [
+                {
+                    "text": "static",
+                    "isCorrect": false
+                },
+                {
+                    "text": "relative",
+                    "isCorrect": false
+                },
+                {
+                    "text": "fixed",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 23,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What does the inherit value for a property do?",
+            "options": [
+                {
+                    "text": "Inherits the value of the parent element.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Invalid property name.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Changes the value of the parent element’s property.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Inherits the value of the parent element."
+            ],
+            "explanation": "Inherits the value of the parent element.",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 24,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Setting an inline-block in CSS requires which of the following properties?",
+            "options": [
+                {
+                    "text": "display",
+                    "isCorrect": true
+                },
+                {
+                    "text": "color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "block",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "display"
+            ],
+            "explanation": "display",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 25,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following CSS property is used for controlling the layout?",
+            "options": [
+                {
+                    "text": "display",
+                    "isCorrect": true
+                },
+                {
+                    "text": "color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "text",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "display"
+            ],
+            "explanation": "display",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 26,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following CSS property specifies the origin of the background image?",
+            "options": [
+                {
+                    "text": "background-origin",
+                    "isCorrect": true
+                },
+                {
+                    "text": "background-size",
+                    "isCorrect": false
+                },
+                {
+                    "text": "origin",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "background-origin"
+            ],
+            "explanation": "background-origin",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 27,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How are custom fonts defined using CSS?",
+            "options": [
+                {
+                    "text": "@font-face rule.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Custom fonts cannot be defined.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "src tags.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "@font-face rule."
+            ],
+            "explanation": "@font-face rule.",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 28,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following are parts of the CSS box model?",
+            "options": [
+                {
+                    "text": "Margins",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Borders",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Padding",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 29,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following components of the CSS box model are transparent?",
+            "options": [
+                {
+                    "text": "Padding",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Margin",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Content",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "Both A and B",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 30,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What will be the width of the div element given below?",
+            "options": [
+                {
+                    "text": "310px",
+                    "isCorrect": false
+                },
+                {
+                    "text": "350px",
+                    "isCorrect": false
+                },
+                {
+                    "text": "360px",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "360px"
+            ],
+            "explanation": "360px",
+            "codeAvailable": true,
+            "codeContent": "div {\n    width: 310px;\n    padding: 20px;\n    border: 5px solid blue;\n    margin: 0;\n  }"
+        },
+        {
+            "id": 31,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following can be achieved with CSS lists?",
+            "options": [
+                {
+                    "text": "Set different list item markers for ordered lists",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Set different list item markers for unordered lists",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Set an image as the list item marker",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 32,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following CSS property specifies the type of list item marker?",
+            "options": [
+                {
+                    "text": "list",
+                    "isCorrect": false
+                },
+                {
+                    "text": "list-style-type",
+                    "isCorrect": true
+                },
+                {
+                    "text": "ul",
+                    "isCorrect": false
+                },
+                {
+                    "text": "ol",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "list-style-type"
+            ],
+            "explanation": "list-style-type",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 33,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What value should be passed to the width parameter if we want an element, say a table, to span the entire width of the screen?",
+            "options": [
+                {
+                    "text": "100%",
+                    "isCorrect": true
+                },
+                {
+                    "text": "50%",
+                    "isCorrect": false
+                },
+                {
+                    "text": "0%",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "100%"
+            ],
+            "explanation": "100%",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 34,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following properties is used to align text in CSS?",
+            "options": [
+                {
+                    "text": "text-align",
+                    "isCorrect": true
+                },
+                {
+                    "text": "text-alignment",
+                    "isCorrect": false
+                },
+                {
+                    "text": "text",
+                    "isCorrect": false
+                },
+                {
+                    "text": "text-position",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "text-align"
+            ],
+            "explanation": "text-align",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 35,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following is the correct approach to make a table responsive?",
+            "options": [
+                {
+                    "text": "overflow-x: auto",
+                    "isCorrect": true
+                },
+                {
+                    "text": "overflow-x: none",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "overflow-x: auto"
+            ],
+            "explanation": "overflow-x: auto",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 36,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following CSS properties specifies the stack order of elements?",
+            "options": [
+                {
+                    "text": "z-index",
+                    "isCorrect": true
+                },
+                {
+                    "text": "overlap",
+                    "isCorrect": false
+                },
+                {
+                    "text": "No such specific property is present",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "z-index"
+            ],
+            "explanation": "z-index",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 37,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following CSS property creates a clipping region and specifies the visible area of the element?",
+            "options": [
+                {
+                    "text": "visibility",
+                    "isCorrect": false
+                },
+                {
+                    "text": "clip-path",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "clip-path"
+            ],
+            "explanation": "clip-path",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 38,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What are the uses of CSS pseudo-elements?",
+            "options": [
+                {
+                    "text": "Style specified parts of an element.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Style the first letter or line of an element.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Insert content before or after the element.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above.",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above."
+            ],
+            "explanation": "All of the above.",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 39,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we select elements with a specified attribute in CSS?",
+            "options": [
+                {
+                    "text": "[attribute] selector",
+                    "isCorrect": true
+                },
+                {
+                    "text": "[property] selector",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "[attribute] selector"
+            ],
+            "explanation": "[attribute] selector",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 40,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following are types of length units in CSS?",
+            "options": [
+                {
+                    "text": "Absolute",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Relative",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "Both A and B",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 41,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which of the following are units of relative length in CSS?",
+            "options": [
+                {
+                    "text": "em",
+                    "isCorrect": false
+                },
+                {
+                    "text": "rem",
+                    "isCorrect": false
+                },
+                {
+                    "text": "vmax",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 42,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What parameter does the calc() function in CSS take?",
+            "options": [
+                {
+                    "text": "A sentence",
+                    "isCorrect": false
+                },
+                {
+                    "text": "A mathematical expression",
+                    "isCorrect": true
+                },
+                {
+                    "text": "A number",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "A mathematical expression"
+            ],
+            "explanation": "A mathematical expression",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 43,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How can we add more importance to a property/value than normal?",
+            "options": [
+                {
+                    "text": "!important",
+                    "isCorrect": true
+                },
+                {
+                    "text": "important",
+                    "isCorrect": false
+                },
+                {
+                    "text": "bold",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "!important"
+            ],
+            "explanation": "!important",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 44,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which CSS property specifies the painting area of the background?",
+            "options": [
+                {
+                    "text": "background-size",
+                    "isCorrect": false
+                },
+                {
+                    "text": "background-clip",
+                    "isCorrect": true
+                },
+                {
+                    "text": "background-image",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "background-clip"
+            ],
+            "explanation": "background-clip",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 45,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What are the different types of gradients in CSS?",
+            "options": [
+                {
+                    "text": "Linear Gradients",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Conic Gradients",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Radial Gradients",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 46,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "Which CSS property is used to create an image reflection?",
+            "options": [
+                {
+                    "text": "box-reflect",
+                    "isCorrect": true
+                },
+                {
+                    "text": "image-reflect",
+                    "isCorrect": false
+                },
+                {
+                    "text": "reflect-img",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "box-reflect"
+            ],
+            "explanation": "box-reflect",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 47,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "The transparent keyword is equivalent to which RGBA() value in CSS?",
+            "options": [
+                {
+                    "text": "RGBA(0, 0, 0, 1)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RGBA(255, 255, 255, 1)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RGBA(0, 0, 0, 0)",
+                    "isCorrect": true
+                },
+                {
+                    "text": "RGBA(255, 255, 255, 0)",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "RGBA(0, 0, 0, 0)"
+            ],
+            "explanation": "RGBA(0, 0, 0, 0)",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 48,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What function is used to insert values of a CSS variable?",
+            "options": [
+                {
+                    "text": "var()",
+                    "isCorrect": true
+                },
+                {
+                    "text": "rand()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "varchar()",
+                    "isCorrect": false
+                },
+                {
+                    "text": "calc()",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "var()"
+            ],
+            "explanation": "var()",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 49,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "What is the general syntax of writing the var() function?",
+            "options": [
+                {
+                    "text": "var(--name, value)",
+                    "isCorrect": true
+                },
+                {
+                    "text": "var(--name)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "var(value)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "var(--name, value)"
+            ],
+            "explanation": "var(--name, value)",
+            "codeAvailable": false,
+            "codeContent": null
+        },
+        {
+            "id": 50,
+            "category": "CSS",
+            "type": "multiple choice",
+            "tags": [
+                "CSS"
+            ],
+            "questionText": "How many layout modes were there before the Flexbox Layout Module was introduced in CSS?",
+            "options": [
+                {
+                    "text": "1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "3",
+                    "isCorrect": false
+                },
+                {
+                    "text": "4",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "4"
+            ],
+            "explanation": "4",
+            "codeAvailable": false,
+            "codeContent": null
+        }
+    ]
+},
+    
+   {
+    "tags": "HTML",
+    "allQuestion":[
+        {
+            "id": 1,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What does the abbreviation HTML stand for?",
+            "options": [
+                {
+                    "text": "HyperText Markup Language.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "HighText Markup Language.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "HyperText Markdown Language.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "HyperText Markup Language."
+            ],
+            "explanation": "HTML stands for HyperText Markup Language.",
+            "codeAvailable": false
+        },
+        {
+            "id": 2,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How many sizes of headers are available in HTML by default?",
+            "options": [
+                {
+                    "text": "5",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "3",
+                    "isCorrect": false
+                },
+                {
+                    "text": "6",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "6"
+            ],
+            "explanation": "6 headers are available in HTML by default ranging from h1 to h6.",
+            "codeAvailable": false
+        },
+        {
+            "id": 3,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is the smallest header in HTML by default?",
+            "options": [
+                {
+                    "text": "h1",
+                    "isCorrect": false
+                },
+                {
+                    "text": "h2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "h6",
+                    "isCorrect": true
+                },
+                {
+                    "text": "h4",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "h6"
+            ],
+            "explanation": "h6 is the smallest header in HTML by default.",
+            "codeAvailable": false
+        },
+        {
+            "id": 4,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are the types of lists available in HTML?",
+            "options": [
+                {
+                    "text": "Ordered, Unordered Lists.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Bulleted, Numbered Lists.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Named, Unnamed Lists.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Ordered, Unordered Lists."
+            ],
+            "explanation": "The lists available in HTML are Ordered and Unordered List.",
+            "codeAvailable": false
+        },
+        {
+            "id": 5,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How to create an ordered list in HTML?",
+            "options": [
+                {
+                    "text": "<ul>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<ol>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<href>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<b>",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<ol>"
+            ],
+            "explanation": "An ordered list is created in HTML by using the <ol> tag.",
+            "codeAvailable": false
+        },
+        {
+            "id": 6,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "HTML files are saved by default with the extension?",
+            "options": [
+                {
+                    "text": ".html",
+                    "isCorrect": true
+                },
+                {
+                    "text": ".h",
+                    "isCorrect": false
+                },
+                {
+                    "text": ".ht",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                ".html"
+            ],
+            "explanation": "HTML files are saved by the .html or .htm extension.",
+            "codeAvailable": false
+        },
+        {
+            "id": 7,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "We enclose HTML tags within?",
+            "options": [
+                {
+                    "text": "{ }",
+                    "isCorrect": false
+                },
+                {
+                    "text": "< >",
+                    "isCorrect": true
+                },
+                {
+                    "text": "! !",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "< >"
+            ],
+            "explanation": "HTML tags are enclosed within < > according to syntax.",
+            "codeAvailable": false
+        },
+        {
+            "id": 8,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is the effect of the <b> tag?",
+            "options": [
+                {
+                    "text": "It converts the text within it to bold font.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "It is used to write black-colored font.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It is used to change the font size.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "It converts the text within it to bold font."
+            ],
+            "explanation": "<b> is used to convert the text within it to bold font.",
+            "codeAvailable": false
+        },
+        {
+            "id": 9,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following is correct about HTML?",
+            "options": [
+                {
+                    "text": "HTML uses User Defined Tags.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "HTML uses tags defined within the language.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Both A and B.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "HTML uses tags defined within the language."
+            ],
+            "explanation": "HTML can only use the tags defined within the language.",
+            "codeAvailable": false
+        },
+        {
+            "id": 10,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How to display preformatted text in HTML?",
+            "options": [
+                {
+                    "text": "<p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<pre>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<hr>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<pre>"
+            ],
+            "explanation": "<pre> tags is used to handle preformatted text in HTML.",
+            "codeAvailable": false
+        },
+        {
+            "id": 11,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following tags doesn’t require a closing tag?",
+            "options": [
+                {
+                    "text": "<br>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<hr>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "Both the <hr> and the <br> tag doesn’t require a closing tag.",
+            "codeAvailable": false
+        },
+        {
+            "id": 12,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is meant by an empty tag in HTML?",
+            "options": [
+                {
+                    "text": "There is no such concept of an empty tag in HTML",
+                    "isCorrect": false
+                },
+                {
+                    "text": "An empty tag does not require a closing tag",
+                    "isCorrect": true
+                },
+                {
+                    "text": "An empty tag cannot have any content within it",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "An empty tag does not require a closing tag"
+            ],
+            "explanation": "In HTML, empty tags are those tags that don’t require a closing tag for completion.",
+            "codeAvailable": false
+        },
+        {
+            "id": 13,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are the attributes used to change the size of an image?",
+            "options": [
+                {
+                    "text": "Width and height",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Big and Small",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Top and bottom",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Width and height"
+            ],
+            "explanation": "Width and Height attributes are used to change the size of an image.",
+            "codeAvailable": false
+        },
+        {
+            "id": 14,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which attribute is used to provide a unique name to an HTML element?",
+            "options": [
+                {
+                    "text": "id",
+                    "isCorrect": true
+                },
+                {
+                    "text": "class",
+                    "isCorrect": false
+                },
+                {
+                    "text": "type",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "id"
+            ],
+            "explanation": "An id is used to provide a unique name for an HTML element that can be used to identify it.",
+            "codeAvailable": false
+        },
+        {
+            "id": 15,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is the function of the HTML style attribute?",
+            "options": [
+                {
+                    "text": "It is used to add styles to an HTML element.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "It is used to uniquely identify some specific styles of some element.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "It is used to add styles to an HTML element."
+            ],
+            "explanation": "The HTML style attribute is used to add styles like font, color, and size to an HTML element.",
+            "codeAvailable": false
+        },
+        {
+            "id": 16,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following is the correct syntax for using the HTML style attribute?",
+            "options": [
+                {
+                    "text": "<tagname style = “property: value;”>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<tagname style = “property;”>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<tagname style >",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<tagname style = “property: value;”>"
+            ],
+            "explanation": "The correct syntax for the style attribute is shown in Option A.",
+            "codeAvailable": false
+        },
+        {
+            "id": 17,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which HTML element is used to define description data?",
+            "options": [
+                {
+                    "text": "<li>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<ol>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<dd>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<dl>",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<dd>"
+            ],
+            "explanation": "Description data is defined by <dd> tag.",
+            "codeAvailable": false
+        },
+        {
+            "id": 18,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following properties is used to change the font of text?",
+            "options": [
+                {
+                    "text": "font-family",
+                    "isCorrect": true
+                },
+                {
+                    "text": "font-size",
+                    "isCorrect": false
+                },
+                {
+                    "text": "text-align",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "font-family"
+            ],
+            "explanation": "The font-family property is used to change text font in HTML",
+            "codeAvailable": false
+        },
+        {
+            "id": 19,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How are quotations defined in HTML?",
+            "options": [
+                {
+                    "text": "<quote>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<block>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<blockquote>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<blockquote>"
+            ],
+            "explanation": "The <blockquote> tag is used to define a section that is quoted from another source.",
+            "codeAvailable": false
+        },
+        {
+            "id": 20,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What tag is used to render an image on a webpage?",
+            "options": [
+                {
+                    "text": "img",
+                    "isCorrect": true
+                },
+                {
+                    "text": "src",
+                    "isCorrect": false
+                },
+                {
+                    "text": "image",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "img"
+            ],
+            "explanation": "The img tag is used to display an image on a webpage.",
+            "codeAvailable": false
+        },
+        {
+            "id": 21,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Apart from <i> tag, which of the following tag is used to render a text in italics?",
+            "options": [
+                {
+                    "text": "<em>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<strong>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<b>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<em>"
+            ],
+            "explanation": "The <em> tag is used to emphasize text, which puts same effect as <i> tag.",
+            "codeAvailable": false
+        },
+        {
+            "id": 22,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is the correct syntax to write an HTML comment?",
+            "options": [
+                {
+                    "text": "<!-- Comment -->",
+                    "isCorrect": true
+                },
+                {
+                    "text": "// Comment",
+                    "isCorrect": false
+                },
+                {
+                    "text": "# Comment",
+                    "isCorrect": false
+                },
+                {
+                    "text": "/* Comment */",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<!-- Comment -->"
+            ],
+            "explanation": "The correct syntax of writing an HTML comment is shown in option A.",
+            "codeAvailable": false
+        },
+        {
+            "id": 23,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Colors are defined in HTML using?",
+            "options": [
+                {
+                    "text": "RGB Values",
+                    "isCorrect": false
+                },
+                {
+                    "text": "HEX Values",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RGBA values",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "Colors are defined using RGB, HEX, HSL, RGBA, HSLA values or with predefined color names.",
+            "codeAvailable": false
+        },
+        {
+            "id": 24,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which property is used to set colors in HTML?",
+            "options": [
+                {
+                    "text": "color",
+                    "isCorrect": true
+                },
+                {
+                    "text": "background-color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "font-color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "text-color",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "color"
+            ],
+            "explanation": "The color property is used to set and change colors in HTML.",
+            "codeAvailable": false
+        },
+        {
+            "id": 25,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are the types of unordered lists in HTML?",
+            "options": [
+                {
+                    "text": "Circle, square, disc.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Triangle, Square, disc.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Triangle, Circle, Disc.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Circle, square, disc."
+            ],
+            "explanation": "The unordered lists in HTML can form bullets of form Circle, Square and Disc.",
+            "codeAvailable": false
+        },
+        {
+            "id": 26,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which property is used to set border colors in HTML?",
+            "options": [
+                {
+                    "text": "border-color",
+                    "isCorrect": false
+                },
+                {
+                    "text": "border",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "border"
+            ],
+            "explanation": "The border property is used to change the border properties, including color in HTML.",
+            "codeAvailable": false
+        },
+        {
+            "id": 27,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following things are necessary to create an HTML page?",
+            "options": [
+                {
+                    "text": "A text editor.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Web Browser",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "With a text editor and a web browser we can create an HTML page.",
+            "codeAvailable": false
+        },
+        {
+            "id": 28,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following tags is used to indicate the page’s start and endpoints?",
+            "options": [
+                {
+                    "text": "<body>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<html>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<head>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<doctype>",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<html>"
+            ],
+            "explanation": "<html> tag indicates the web browser where a webpage starts and ends.",
+            "codeAvailable": false
+        },
+        {
+            "id": 29,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following is true about HTML tags?",
+            "options": [
+                {
+                    "text": "Are case sensitive",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Are not case sensitive",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Are in uppercase",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Are in lowercase",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Are not case sensitive"
+            ],
+            "explanation": "HTML tags are not case-sensitive in nature.",
+            "codeAvailable": false
+        },
+        {
+            "id": 30,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which HTML tag is called the root element of an HTML document?",
+            "options": [
+                {
+                    "text": "<html>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<body>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<title>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<head>",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<html>"
+            ],
+            "explanation": "The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it.",
+            "codeAvailable": false
+        },
+        {
+            "id": 31,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How is black color represented in terms of RGB values?",
+            "options": [
+                {
+                    "text": "RGB(0, 0, 0)",
+                    "isCorrect": true
+                },
+                {
+                    "text": "RGB(100, 100, 100)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RGB(100, 100, 0)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RGB(100, 0, 0)",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "RGB(0, 0, 0)"
+            ],
+            "explanation": "RCB(0, 0, 0) is equivalent to black color in terms of RGB values.",
+            "codeAvailable": false
+        },
+        {
+            "id": 32,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What does the Alpha value in RGBA represent?",
+            "options": [
+                {
+                    "text": "Opacity value for a color.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "The shade of a color.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Opacity value for a color."
+            ],
+            "explanation": "A in RGBA represents the value of the Alpha Channel which is a measure of the Opacity of a color.",
+            "codeAvailable": false
+        },
+        {
+            "id": 33,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What does the Alpha value of 0.0 represent?",
+            "options": [
+                {
+                    "text": "Fully Opaque.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Fully Transparent.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "50% transparent.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Fully Transparent."
+            ],
+            "explanation": "The Alpha value varies between 0.0 (fully transparent) to 1.0(fully opaque).",
+            "codeAvailable": false
+        },
+        {
+            "id": 34,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How to set a font for a whole page?",
+            "options": [
+                {
+                    "text": "<targetfont>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<defaultfont>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<font>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<defaultfont>"
+            ],
+            "explanation": "<defaultfont> tag is used to set up a default font type for a whole page.",
+            "codeAvailable": false
+        },
+        {
+            "id": 35,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "The CSS inside HTML elements used alongside style attribute is called?",
+            "options": [
+                {
+                    "text": "Inline CSS",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Internal CSS",
+                    "isCorrect": false
+                },
+                {
+                    "text": "External CSS",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Inline CSS"
+            ],
+            "explanation": "The CSS used alongside the style attribute with HTML elements is called Inline CSS.",
+            "codeAvailable": false
+        },
+        {
+            "id": 36,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following colors contain equal amounts of RBG?",
+            "options": [
+                {
+                    "text": "White",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Gray",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Black",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "Gray is RGB(50, 50, 50), White is RGB(100, 100, 100) and Black is RGB(0, 0, 0).",
+            "codeAvailable": false
+        },
+        {
+            "id": 37,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is the speciality about the <small> and <big> tags in HTML?",
+            "options": [
+                {
+                    "text": "They work on anything.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "They can be used for text only.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "They can be repeated.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "They can be repeated."
+            ],
+            "explanation": "The tags can be repeated and their effects and stacked on top of each other.",
+            "codeAvailable": false
+        },
+        {
+            "id": 38,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following tags is used to add a row to a table in HTML?",
+            "options": [
+                {
+                    "text": "<tr>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<td>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<th>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<tr>"
+            ],
+            "explanation": "<tr> is used to add a row to a table in HTML.",
+            "codeAvailable": false
+        },
+        {
+            "id": 39,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which property allows an image link to show a text label?",
+            "options": [
+                {
+                    "text": "alt",
+                    "isCorrect": true
+                },
+                {
+                    "text": "str",
+                    "isCorrect": false
+                },
+                {
+                    "text": "alternative",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "alt"
+            ],
+            "explanation": "The alt property allows an image link to show a text label.",
+            "codeAvailable": false
+        },
+        {
+            "id": 40,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "If a background image is smaller than the screen on which it is being displayed, what will occur on the webpage?",
+            "options": [
+                {
+                    "text": "The blank space will be shown in black.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "The image will be stretched",
+                    "isCorrect": false
+                },
+                {
+                    "text": "The image will be repeated",
+                    "isCorrect": true
+                },
+                {
+                    "text": "The image won’t be displayed",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "The image will be repeated"
+            ],
+            "explanation": "By default on most screens, if the background image is smaller than the screen on which it is being displayed, the image will be repeated.",
+            "codeAvailable": false
+        },
+        {
+            "id": 41,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are the properties of block-level elements?",
+            "options": [
+                {
+                    "text": "It always starts on a new line.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It always takes the full width available.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It has a top and bottom margin.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above.",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above."
+            ],
+            "explanation": "All the above properties are valid properties of block-level elements.",
+            "codeAvailable": false
+        },
+        {
+            "id": 42,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which of the following are examples of block-level elements in HTML?",
+            "options": [
+                {
+                    "text": "<div>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<h1>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All the above examples satisfy the properties in Prob. 41 and hence are block-level elements",
+            "codeAvailable": false
+        },
+        {
+            "id": 43,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "How many characters can be written in 1KB?",
+            "options": [
+                {
+                    "text": "1048",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1024",
+                    "isCorrect": true
+                },
+                {
+                    "text": "1000",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "1024"
+            ],
+            "explanation": "1024 characters can be written in a file of size 1KB.",
+            "codeAvailable": false
+        },
+        {
+            "id": 44,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are some valid character sets available?",
+            "options": [
+                {
+                    "text": "UTF-8",
+                    "isCorrect": false
+                },
+                {
+                    "text": "ANSI",
+                    "isCorrect": false
+                },
+                {
+                    "text": "ASCII",
+                    "isCorrect": false
+                },
+                {
+                    "text": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "correctAnswers": [
+                "All of the above"
+            ],
+            "explanation": "All of the above options are examples of valid character sets.",
+            "codeAvailable": false
+        },
+        {
+            "id": 45,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "The default value of the BORDER attribute is?",
+            "options": [
+                {
+                    "text": "1pixel",
+                    "isCorrect": true
+                },
+                {
+                    "text": "2pixel",
+                    "isCorrect": false
+                },
+                {
+                    "text": "4pixel",
+                    "isCorrect": false
+                },
+                {
+                    "text": "8pixel",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "1pixel"
+            ],
+            "explanation": "1pixel is the default value for the BORDER attribute in HTML.",
+            "codeAvailable": false
+        },
+        {
+            "id": 46,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are those objects called which are used for storing data on the client provided by the HTML local storage?",
+            "options": [
+                {
+                    "text": "Windows.localStorage",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Window.sessionStorage",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Both A and B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Both A and B"
+            ],
+            "explanation": "Such objects with the property mentioned above are called as Windows.localStorage or Window.sessionStorage.",
+            "codeAvailable": false
+        },
+        {
+            "id": 47,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "The most basic part of any HTML page is?",
+            "options": [
+                {
+                    "text": "ASCII Text",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Binary Text",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Text",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "ASCII Text"
+            ],
+            "explanation": "ASCII Text comprises the most basic part of any HTML page, as it is the simplest character set a webpage can use.",
+            "codeAvailable": false
+        },
+        {
+            "id": 48,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What is the select tag used for?",
+            "options": [
+                {
+                    "text": "Creates a combo box.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Select some attributes and change their style.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Change text font.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "Creates a combo box."
+            ],
+            "explanation": "A HTML combo box is created using the select tag.",
+            "codeAvailable": false
+        },
+        {
+            "id": 49,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "What are the main components of the front end of any working website?",
+            "options": [
+                {
+                    "text": "HTML, CSS, Javascript.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "HTML only.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Javascript only.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Node.js.",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "HTML, CSS, Javascript."
+            ],
+            "explanation": "HTML, CSS, and Javascript combined to form the basic components of any working website’s frontend.",
+            "codeAvailable": false
+        },
+        {
+            "id": 50,
+            "category": "Web development",
+            "type": "multiple choice",
+            "tags": [
+                "HTML"
+            ],
+            "questionText": "Which HTML tag is used to set up a Javascript-like client-side scripting language?",
+            "options": [
+                {
+                    "text": "<script>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<select>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<anchor>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "None of the above",
+                    "isCorrect": false
+                }
+            ],
+            "correctAnswers": [
+                "<script>"
+            ],
+            "explanation": "<script> tag is used for the purpose of setting up a client-side scripting language.",
+            "codeAvailable": false
+        }
+    ]
+   }
+    
+]
