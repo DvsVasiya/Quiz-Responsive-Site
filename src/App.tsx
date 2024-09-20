@@ -22,7 +22,8 @@ const navigate = useNavigate();
     <button onClick={() => handlePageRedurect("summary")}>Summary</button>
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} /> 
-        <Route path="/quiz" element={<Quiz />} /> 
+        <Route  path="/quiz/:id/:qid" element={<Quiz />}/>
+        <Route path="/quiz"  /> 
         <Route path="/summary" element={<Summary />} /> 
       </Routes>
     </>

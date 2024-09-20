@@ -5,7 +5,7 @@ import React, { useCallback, useState } from "react";
 import { LiftPropUp } from "../interfaces/props";
 
 const QuestionNumberSelector =  React.memo(({handleQuiz}: LiftPropUp) => {
-  const [selectedQuestion, setSelectedQuestion] = useState();
+  const [selectedQuestion, setSelectedQuestion] = useState<number>();
   
     // const dispatch = useDispatch<AppDispatch>();
   const userSelectedQuestion = useSelector(
@@ -15,12 +15,15 @@ const QuestionNumberSelector =  React.memo(({handleQuiz}: LiftPropUp) => {
   console.log('component renderring');
 
 
-  const handleQuestionSelect = useCallback((e: string) => {
-    setSelectedQuestion(e)
+  const handleQuestionSelect = useCallback((event: string) => {
+
+    const ConvertToNumber = Number(event)
+
+    setSelectedQuestion(ConvertToNumber)
     if (selectedQuestion !== userSelectedQuestion) {
       handleQuiz((prevQuiz: object) => ({
         ...prevQuiz,
-        totalQuestion: e, 
+        totalQuestion: ConvertToNumber, 
       }));  
       // dispatch(setQuestion(selectedQuestion));
     }

@@ -1,27 +1,25 @@
 import { useCallback, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setTotalTime } from "../_redux/quizMSTRedux";
 import { LiftPropUp } from "../interfaces/props";
 import { RootState } from "../_redux/store";
+import { useSelector } from "react-redux";
 
 
 
 const TimeLimit = ({handleQuiz }: LiftPropUp) => {
-  const [time, setTime] = useState();
+  const [time, setTime] = useState<number>();
 const timeForEachQuestion = useSelector(
   (state: RootState) => state.QuizMST.totalTime.data
 );
 
-console.log(timeForEachQuestion);
 
-const handleTime = useCallback((e: string) => {
-  console.log(e)
-  setTime(e)
+const handleTime = useCallback((event: string) => {
+  const convertEventToNumber = Number(event)
+  setTime(convertEventToNumber)
   if (time !== timeForEachQuestion) {
     // console.log(time)
     handleQuiz((prevQuiz: object) => ({
       ...prevQuiz,
-      totalTime: e, 
+      totalTime: time, 
     }));  
     // dispatch(setTotalTime(e));
   }

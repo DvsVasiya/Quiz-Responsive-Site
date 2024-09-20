@@ -2,6 +2,7 @@ import { useState } from "react";
 import GreenTick from "../assets/svgs/GreenTick";
 import Stopwatch from "../assets/svgs/Stopwatch";
 import WrongTick from "../assets/svgs/WrongTick";
+import { useParams } from "react-router-dom";
 
 interface ToastProps {
   message: string;
@@ -9,27 +10,30 @@ interface ToastProps {
 }
 
 const Quiz = () => {
+  const { id, qid } = useParams();
+
+  console.log(id, qid)
   const [selectAnswer, setselectAnswer] = useState<string | null>(null);
-  const [showToast, setShowToast] = useState<boolean | null>(true);
-  const [toastMessage, setTosatMessage] = useState<string>("");
-  const [toastType, setToastType] = useState<string>("");
+  // const [showToast, setShowToast] = useState<boolean | null>(true);
+  // const [toastMessage, setTosatMessage] = useState<string>("");
+  // const [toastType, setToastType] = useState<string>("");
 
 
 
-  const handleAnswer = (isCorrect:boolean) => {
-    if (isCorrect) {
-      setTosatMessage('Correct Answer!');
-      setToastType('success');
-    } else {
-      setTosatMessage('Wrong Answer!');
-      setToastType('error');
-    }
-    setShowToast(true);
+  // const handleAnswer = (isCorrect:boolean) => {
+  //   if (isCorrect) {
+  //     setTosatMessage('Correct Answer!');
+  //     setToastType('success');
+  //   } else {
+  //     setTosatMessage('Wrong Answer!');
+  //     setToastType('error');
+  //   }
+  //   setShowToast(true);
 
-    setTimeout(() => {
-      setShowToast(false);
-    }, 3000);
-  };
+  //   setTimeout(() => {
+  //     setShowToast(false);
+  //   }, 3000);
+  // };
 
   function Options() {
     const handleSelect = (item: string) => {
@@ -114,7 +118,7 @@ const Quiz = () => {
       </div>
 
       {/* toast notificatiion */}
-      {showToast && <Toast message={"Correct Answer!"} type={"success"} />}
+      {/* {showToast && <Toast message={"Correct Answer!"} type={"success"} />} */}
     </div>
   );
 };
