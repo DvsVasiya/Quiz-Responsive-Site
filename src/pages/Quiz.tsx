@@ -10,7 +10,7 @@ import { setCurrentQuestion } from "../_redux/quizMSTRedux";
 
 interface ToastProps {
   message: string;
-  type: "success" | "error"; // You can define specific strings or use 'string'
+  type: "success" | "error"; 
 }
 
 const Quiz = () => {

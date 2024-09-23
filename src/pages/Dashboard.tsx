@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Accuracy from "../assets/svgs/Accuracy";
 import History from "../assets/svgs/History";
 import OldHistory from "../assets/svgs/OldHistory";
 import Quiz from "../assets/svgs/Quiz";
