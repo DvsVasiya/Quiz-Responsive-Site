@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate(); // Initialize the hook
@@ -13,7 +13,9 @@ const Header = () => {
         <span>Quizzer</span>
       </div>
       <div className="flex gap-4 text-xs	items-center">
-        <span>Dashboard</span>
+        <Link to="/dashboard">
+        <span className="cursor-pointer">Dashboard</span>
+        </Link>
         <button onClick={handleStartQuiz} className="border-[#EBEBED] font-bold bg-white">Star Quiz</button>
       </div>
     </header>

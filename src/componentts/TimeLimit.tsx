@@ -19,7 +19,7 @@ const handleTime = useCallback((event: string) => {
     // console.log(time)
     handleQuiz((prevQuiz: object) => ({
       ...prevQuiz,
-      totalTime: time, 
+      totalTime: convertEventToNumber, 
     }));  
     // dispatch(setTotalTime(e));
   }
@@ -40,6 +40,7 @@ const handleTime = useCallback((event: string) => {
           required
         />
         <span className="font-semibold text-sm">minutes</span>
+        
       </div>
     </div>
   );

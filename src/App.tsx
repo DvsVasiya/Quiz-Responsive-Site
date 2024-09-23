@@ -4,6 +4,9 @@ import './App.css'
 import Dashboard from './pages/Dashboard'
 import Quiz from './pages/Quiz'
 import Summary from './pages/Summary'
+import Home from './pages/Home'
+import SplashScreen from './componentts/SplashScreen'
+import { useSelector } from 'react-redux'
 
 function App() {
 
@@ -14,13 +17,11 @@ const handlePageRedurect = (path: string) => {
 
 const navigate = useNavigate();
 
-
+  
   return (
     <>
-    <button onClick={() => handlePageRedurect("dashboard")}>Dashboard</button>
-    <button onClick={() => handlePageRedurect("quiz")}>Quiz</button>
-    <button onClick={() => handlePageRedurect("summary")}>Summary</button>
       <Routes>
+        <Route path="/" element={<Home />} /> 
         <Route path="/dashboard" element={<Dashboard />} /> 
         <Route  path="/quiz/:id/:qid" element={<Quiz />}/>
         <Route path="/quiz"  /> 
