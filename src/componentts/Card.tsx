@@ -47,8 +47,9 @@ import LoadingOverlay from "./LoadingOverlay";
 
       if (!userSlection.totalTime || !userSlection.totalQuestion || !userSlection.Difficulty) {
         setErrorMessage("Please select total time, total questions, and difficulty.");
-        return; // Exit if validation fails
-      }
+        setLoading(false);
+        return; 
+      } 
 
       console.log("Button clicked...");
       dispatch(setTotalTime(userSlection.totalTime));
@@ -66,7 +67,6 @@ import LoadingOverlay from "./LoadingOverlay";
         filterData
       );
 
-      debugger
 
       const firstQuestion =  filteredDataQuestion?.[0]?.id
 
@@ -76,9 +76,6 @@ import LoadingOverlay from "./LoadingOverlay";
         setLoading(false); // End loading
       }, 3000);
       
-      // navigate(`/quiz/${quiz.tags}/${firstQuestion}`);
-
-
 
       // dispatch(setRandomQuestions(filteredDataQuestion))
       // console.log(filteredDataQuestion);
